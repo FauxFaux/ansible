@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20200903
 
 RUN apt-get update && apt-get install -y \
     asciidoc \
